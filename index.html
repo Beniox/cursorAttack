@@ -5,14 +5,57 @@
     <title>Cursor</title>
 </head>
 <body>
-<h1>Cursor</h1>
+<h1>Cursor Attack</h1>
 
 <div id="cursor"></div>
 
-<p>Lorem Ipsum</p>
-
 <button id="btn" onclick="game.spawnEnemy()">Spawn Enemy</button>
 <button id="btn2">Click me 2</button>
+
+
+<article>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit enim auctor orci tincidunt ultrices.
+        Proin
+        volutpat massa nec ante tempus vestibulum. Praesent fermentum, metus eu elementum rhoncus, nisi sem tristique
+        purus,
+        sit amet consectetur neque justo a tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada
+        fames ac turpis egestas. Donec nec ligula vel purus lobortis porta ut a libero. Mauris elementum felis
+        ultricies,
+        pellentesque felis rhoncus, eleifend odio. Pellentesque tristique molestie viverra. Nulla et bibendum metus. Sed
+        lorem nunc, aliquam ut quam vel, rutrum sodales augue. Phasellus urna massa, porttitor sit amet dapibus iaculis,
+        molestie sollicitudin nunc. Sed vehicula ante in massa aliquet maximus. Maecenas consequat interdum est quis
+        tristique. Nunc mollis magna justo, ac laoreet ex consequat non. Aenean eu molestie sem. Aliquam sagittis lacus
+        tellus, id porttitor mauris posuere sit amet.
+    </p>
+
+    <p>
+        Aliquam pharetra ligula magna, congue ultricies libero congue ac. Donec rhoncus sem facilisis orci posuere, sit
+        amet
+        dapibus ipsum iaculis. Donec sagittis feugiat felis, et luctus ligula. Morbi at blandit nisl. Ut placerat
+        fermentum
+        odio, condimentum scelerisque tellus vestibulum eu. Nullam sem ligula, auctor id fringilla ut, facilisis non
+        tortor.
+        Mauris augue lectus, tincidunt at efficitur eu, feugiat nec metus. Fusce vulputate sem nec mauris mattis feugiat
+        sed
+        gravida nisi. Nulla turpis erat, consectetur ut dui sit amet, euismod ultricies ex. Vivamus lobortis, metus in
+        fermentum mollis, turpis lacus semper quam, eget ultricies diam ante malesuada sapien. Integer in metus eget
+        ipsum
+        volutpat mollis.
+    </p>
+    <p>
+        Aliquam bibendum feugiat ipsum, a laoreet nisi vestibulum sed. Fusce sit amet pharetra nunc, eget luctus massa.
+        Integer non hendrerit urna. Etiam ut lorem vel neque scelerisque luctus. Pellentesque a massa et arcu posuere
+        efficitur ut quis tellus. Aliquam gravida odio nec gravida scelerisque. Etiam a enim ipsum. Nunc felis arcu,
+        aliquam
+        nec ligula at, dictum rutrum lorem.
+    </p>
+</article>
+
+
+<footer>
+    <p>Made by <a href="https://github.com/Beniox">Beniox</a></p>
+</footer>
 
 
 </body>
@@ -24,4 +67,25 @@
     const game = new Game();
     game.start();
 </script>
+
+<style>
+    h1 {
+        text-align: center;
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 60px;
+        background-color: #f5f5f5;
+        margin: 0;
+        padding: 0;
+    }
+
+    article {
+        margin-bottom: 60px;
+        padding: 50px;
+    }
+</style>
+
 </html>
